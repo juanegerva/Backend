@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Ingreso de Productos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="css/estilos.css"> -->
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+
+</head>
+<body>
+    
+    <div class="container mt-3">
+        <div class="jumbotron">
+            <h1>Ingrese Producto</h1>
+            <br>
+
+            <form autocomplete="off">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" class="form-control" type="text" name="title" required placeholder="El producto">
+                </div>
+
+                <div class="form-group">
+                    <label for="precio">Precio</label>
+                    <input id="precio" class="form-control" type="number" name="price" required placeholder="El precio">  
+                </div>
+
+                <div class="form-group">
+                    <label for="foto">Foto URL</label>
+                    <input id="foto" class="form-control" type="url" name="thumbnail" placeholder="La imagen">
+                </div>
+
+                <button class="btn btn-success mt-3">Grabar</button>
+            </form>
+            <hr>
+            <button class="btn btn-info mt-3" onclick="location.href = '/api/productos/vista'">Vista Productos (hbs)</button>
+            <br>
+            <br>
+            <div id="datos"></div>
+
+        </div>
+    </div>
+
+    <script src="js/handlebars-v4.7.6.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios de Ingreso</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+
+<body>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Ingreso de Productos</h1>
+          <form method="post" action="/api/productos/guardar">
+            <div class="form-group">
+              <label for="title">Producto</label>
+              <input type="text" class="form-control" name="title" placeholder="El titulo">
+              <small id="titleHelp" class="form-text text-muted">Es lo que representa al producto.</small>
+            </div>
+            <div class="form-group">
+                <label for="price">Precio</label>
+                <input type="text" class="form-control" name="price" placeholder="El precio">
+                <small id="priceHelp" class="form-text text-muted">El precio del producto</small>
+            </div>
+            <div class="form-group">
+                <label for="thumbnail">Link Imagen</label>
+                <input type="url" class="form-control" name="thumbnail" placeholder="El link a la imagen">
+                <small id="thumbnailHelp" class="form-text text-muted">Imagen del producto.</small>
+            </div>
+            <button type="submit" class="btn btn-primary">Grabar</button>
+          </form>
+
+          <p class="lead">esta informacion es registrada en memoria.</p>
+        </div>
+      </div>
+    
+</body>
+
+</html> -->

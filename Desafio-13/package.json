@@ -1,0 +1,22 @@
+{
+	"dependencies": {
+		"express": "^4.17.1",
+		"express-handlebars": "^5.3.2",
+		"handlebars": "^4.7.7",
+		"socket.io": "^4.1.2"
+	},
+	"scripts": {
+		"start": "node server.js"
+	},
+	"engines": {
+		"node": ">=14.0.0",
+		"npm": ">=6.0.0"
+	},
+	"name": "desafio13",
+	"version": "1.0.0",
+	"main": "server.js",
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": ""
+}

@@ -1,0 +1,13 @@
+[
+	{
+		"id": 0,
+		"timestamp": "2021-06-29T02:34:23.058Z",
+		"administrador": true,
+		"nombre": "Niebla",
+		"descripcion": "Cuenta la historia de un pueblo ...",
+		"codigo": "NIEBLA2021",
+		"foto": "https://www.gougars-tech.cl/images/NIEBLA2021.jpg",
+		"precio": 15,
+		"stock": 15
+	}
+]

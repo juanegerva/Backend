@@ -1,0 +1,54 @@
+[
+	{
+		"id": 0,
+		"timestamp": "2021-06-29T02:36:03.360Z",
+		"productos": {
+			"0": {
+				"id": 0,
+				"timestamp": "2021-06-29T01:35:05.106Z",
+				"nombre": "El niño que enloquecio de amor",
+				"descripcion": "Narra la historia de un muchacho quinceañero que se enamora de ...",
+				"codigo": "ENQEDA2021",
+				"foto": "https://www.gougars-tech.cl/images/ENQEDA2021.jpg",
+				"precio": 5,
+				"stock": 5
+			},
+			"1": {
+				"id": 2,
+				"timestamp": "2021-06-29T01:36:54.913Z",
+				"nombre": "Niebla",
+				"descripcion": "Cuenta la historia de un pueblo ...",
+				"codigo": "NIEBLA2021",
+				"foto": "https://www.gougars-tech.cl/images/NIEBLA2021.jpg",
+				"precio": 15,
+				"stock": 15
+			}
+		}
+	},
+	{
+		"id": 1,
+		"timestamp": "2021-06-29T02:36:09.080Z",
+		"productos": {
+			"0": {
+				"id": 0,
+				"timestamp": "2021-06-29T01:35:05.106Z",
+				"nombre": "El niño que enloquecio de amor",
+				"descripcion": "Narra la historia de un muchacho quinceañero que se enamora de ...",
+				"codigo": "ENQEDA2021",
+				"foto": "https://www.gougars-tech.cl/images/ENQEDA2021.jpg",
+				"precio": 5,
+				"stock": 5
+			},
+			"1": {
+				"id": 2,
+				"timestamp": "2021-06-29T01:36:54.913Z",
+				"nombre": "Niebla",
+				"descripcion": "Cuenta la historia de un pueblo ...",
+				"codigo": "NIEBLA2021",
+				"foto": "https://www.gougars-tech.cl/images/NIEBLA2021.jpg",
+				"precio": 15,
+				"stock": 15
+			}
+		}
+	}
+]
